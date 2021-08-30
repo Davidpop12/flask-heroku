@@ -28,6 +28,8 @@ def hello():
 @app.route('/api', methods=['GET'])
 def get_api():
     return jsonify(data)
-
+@app.route('/Hello/string:name>') 
+ def hello1():
+  return"สวัสดี"              
 if __name__ == "__main__":
     app.run(debug=False)
