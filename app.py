@@ -25,6 +25,7 @@ data = [
 def hello():
     return "Hello Flask-Herok"
 
+   return "hello นายเดวิด แซ่ลี้ เลขที่9 ม.4/9
 @app.route('/api', methods=['GET'])
 def get_api():
     return jsonify(data)
