@@ -29,7 +29,7 @@ def hello():
 def get_api():
     return jsonify(data)
 @app.route('/Hello/string:name>')           
-@app.roturn('hi')
+@app.roturn('/hi')
 def hi()
      roturn "สวัสดี"
 if __name__ == "__main__":
